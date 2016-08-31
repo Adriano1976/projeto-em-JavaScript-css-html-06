@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+ 	<head>
+		<meta charset="UTF-8">
+		<title>Mostrar o Número Sucessor e Antecessor</title>
+		<script type="text/javascript" src="controle_valor.js"></script>	
+		<link rel="stylesheet" type="text/css" href="flame_area.css">
+	</head>
+	<body>		
+		<form>
+			<br><br>		
+			<label>Total: R$ </label>
+			<input type="text" name="valor_total" size="8" maxlangth="8"><br><br>		
+			<label>Pago: R$ </label>
+			<input type="text" name="valor_pago" size="10" maxlangth="10"><br><br>		
+			<input type="button" name="button" value="Calcular Troco" onclick="mostrar_troco(this.form)">	
+			<input type="reset" name="limpar" value="Limpar Campo">
+		</form>	
+	</body>
+</html>
